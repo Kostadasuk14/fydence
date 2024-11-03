@@ -1,0 +1,9 @@
+@font-face {
+	font-family: 'Mulish Regular';
+	src: url('../fonts/mulish_regular.eot'); /* IE 9 Compatibility Mode */
+	src: url('../fonts/mulish_regular.eot?#iefix') format('embedded-opentype'), /* IE < 9 */
+		url('../fonts/mulish_regular.woff2') format('woff2'), /* Super Modern Browsers */
+		url('../fonts/mulish_regular.woff') format('woff'), /* Firefox >= 3.6, any other modern browser */
+		url('../fonts/mulish_regular.ttf') format('truetype'), /* Safari, Android, iOS */
+		url('../fonts/mulish_regular.svg#mulish_regular') format('svg'); /* Chrome < 4, Legacy iOS */
+}

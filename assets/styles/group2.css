@@ -1,0 +1,147 @@
+.lined{
+    display: flex;
+}
+
+.cont>.cont-post{
+    width: 930px;
+    height: 92vh;
+}
+
+.group-list-box{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-left: 34px;
+}
+
+.group-box{
+    display: flex;
+    flex-direction: column;
+    background-color: rgba(0, 0, 0, 0.3);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 20px;
+    color: white;
+    /* height: max-content; */
+}
+
+.group-box>.group-banner-auto{
+    width: 350px;  /* Ширина обязательна */
+    height: 160px; /* Высота – не менее важный параметр */
+    /* width: 994px;
+    height: 150px; */
+    background-image: url('../img/user-banner/banner3.jpeg'); /* Звезда нашего шоу – изображение */
+    background-repeat: no-repeat; /* Отключаем повторение */
+    background-size: cover; /* Заполняем всю доступную площадь */
+    background-position: 0 0px;  /* Выравнивание изображения по центру */
+    border-radius: 20px 20px 20px 20px;
+    /* box-shadow: 0 -1px 2px rgb(235, 235, 235); */
+    margin-bottom: 10px;
+}
+
+.group-box>img.group-photo{
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    margin: 0 auto;
+    margin-top: -70px;
+}
+
+.group-box>p.group-name{
+    font-size: 20px;
+    color: #e6e6e6;
+    margin: 0 auto;
+    margin-top: 9px;
+    margin-bottom: 50px;
+}
+
+.group-box>p.group-desc{
+    font-size: 16px;
+    color: #a8a8a8;
+    margin: 0 7px;
+    margin-bottom: 25px;
+}
+
+.group-box>.group-more-info{
+    display: flex;
+    flex-direction: column;
+    margin: 0 7px;
+}
+
+.group-more-info>.gi-list{
+    display: flex;
+    align-items: center;
+    margin: 7px 0;
+}
+
+.group-more-info>.gi-list>p{
+    margin-left: 12px;
+    color: #a8a8a8;
+    font-size: 17px;
+}
+
+
+
+.group-menu {
+    width: 350px;
+    display: flex;
+    flex-direction: column;
+    background-color: rgba(0, 0, 0, 0.3);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 20px;
+    color: white;
+    margin-top: 25px;
+    padding: 10px 5px;
+}
+.group-menu-link{
+    font-size: 16px;
+    color: #a8a8a8;
+    text-decoration: none;
+    padding: 12px 9px;
+}
+.group-menu-link:hover {
+    background-color: rgba(0, 0, 0, 0.4);
+}
+
+
+.group-authors{
+    width: 350px;
+    display: flex;
+    flex-direction: column;
+    background-color: rgba(0, 0, 0, 0.3);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 20px;
+    color: white;
+    margin-top: 25px;
+    padding: 10px 5px;
+    margin-bottom: 25px;
+}
+.group-auth {
+    display: flex;
+    align-items: center;
+    padding: 14px 5px;
+}
+.group-auth:hover{
+    background-color: rgba(0, 0, 0, 0.4);
+}
+.group-auth>img.gml-photo{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-right: 15px;
+}
+.group-auth>.info-gml{
+    display: flex;
+    align-items: flex-start;
+    /* justify-content: flex-start; */
+    flex-direction: column;
+}
+.info-gml>h4{
+    font-size: 17px;
+    color: #e6e6e6;
+    /* color: #a8a8a8; */
+    margin-bottom: 4px;
+}
+.info-gml>p{
+    font-size: 15px;
+    color: #a8a8a8;
+}

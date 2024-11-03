@@ -1,0 +1,292 @@
+.task-box {
+    margin: 0px 15px 0 15px;
+    padding-top: 15px;
+    font-family: 'Inter Semi Bold';
+    width: 100%;
+    height: 92.5vh;
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    overflow-y: auto;
+    scrollbar-width: thin;
+    scrollbar-color: #3C7084 rgba(0, 0, 0, 0.3);
+
+}
+
+.task-box::-webkit-scrollbar {
+    width: 10px;
+    height: 10px;
+}
+  
+.task-box::-webkit-scrollbar-thumb {
+    background: #3C7084;
+    border-radius: 0px;
+}
+
+.task-box::-webkit-scrollbar-track {
+    background: rgba(0, 0, 0, 0.3);
+}
+  
+.task-box::-webkit-scrollbar-button {
+    background-color: #5dadcc;
+    border-radius: 5px;
+}
+
+
+.task-box>.center-box{
+    width: 1250px;
+    display: flex;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.center-box>.task-main{
+    display: flex;
+    align-items: flex-start;
+    /* flex-direction: column; */
+    width: 100%;
+    /* justify-content: space-between; */
+    background-color: #0000009a;
+    border: 3px solid rgba(32, 32, 32, 0.822);
+    /* border-bottom: none; */
+    /* margin-bottom: 7px; */
+    border-radius: 8px 8px 0 0;
+}
+
+.task-main>.task-1 {
+    width: 55%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    border-right: 1px solid rgba(32, 32, 32, 0.822);
+}
+
+.task-main>.task-1>.task-info{
+    width: 100%;
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    color: #c2c2c2;
+    padding: 10px;
+    /* border-right: 1px solid rgba(32, 32, 32, 0.822); */
+}
+
+.task-info>.task-img{
+    width: 95%;
+    height: 200px;
+    background: #c4c4c4;
+    border-radius: 10px;
+    /* border-radius: 50%; */
+    overflow: hidden;
+    margin-bottom: 6px;
+    margin: 0 auto;
+}
+.task-info>.task-img>img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.task-info>.head{
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+}
+.task-info>.head>.meta-infos{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    margin-bottom: 10px;
+    padding-left: 20px;
+    color: rgba(255, 255, 255, 0.6);
+}
+.task-info>.head>.meta-infos>p{
+    display: flex;
+    align-items: center;
+    font-size: 11px;
+    font-weight: bold;
+    color: rgba(255, 255, 255, 0.6);
+}
+
+
+.task-info>.head>.title{
+    font-size: 20px;
+    font-weight: bold;
+    color: rgba(255, 255, 255, 0.8);
+    /* letter-spacing: 1px; */
+    margin-left: 15px;
+    margin-bottom: 25px;
+}
+
+.task-info>p.desc{
+    font-family: 'Mulish Regular';
+    letter-spacing: 1px;
+    margin: 0 15px 15px 15px;
+    font-size: 14px;
+    color: rgba(255, 255, 255, 0.6);
+}
+.task-info>p.ruc{
+    font-family: 'Mulish Regular';
+    letter-spacing: 1px;
+    margin: 0 15px 15px 15px;
+    font-size: 14px;
+    color: rgba(255, 255, 255, 0.6);
+}
+
+
+
+
+.task-main>.task-1>.task-2{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    border-top: 1px solid rgba(32, 32, 32, 0.822);
+    padding: 20px;
+}
+
+.task-2>.com{
+    display: flex;
+    align-items: flex-start;
+    width: 100%;
+    margin-bottom: 16px;
+    /* border-bottom: 1px solid #919191; */
+    /* padding: 6px; */
+}
+.task-2>.com>.imggg{
+    display: flex;
+    align-items: center;
+    /* justify-content: center; */
+    min-width: 60px;
+    height: 60px;
+    background: #c4c4c4;
+    /* border-radius: 10px; */
+    border-radius: 50%;
+    overflow: hidden;
+    margin: 0;
+    /* margin-bottom: 6px; */
+    margin-right: 10px;
+    padding: 0;
+}
+.task-2>.com>.imggg>img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.task-2>.com>.infof{
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    width: 100%;
+    /* margin-left: 10px; */
+}
+.task-2>.com>.infof>p.name{
+    font-size: 16px;
+    font-weight: bold;
+    color: rgba(255, 255, 255, 0.8);
+}
+.task-2>.com>.infof>.info{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    color: rgba(255, 255, 255, 0.6);
+    font-size: 13px;
+}
+.task-2>.com>.infof>p.coment{
+    font-size: 14px;
+    /* font-weight: bold; */
+    color: rgba(255, 255, 255, 0.6);
+    margin-top: 8px;
+}
+
+
+
+
+/* Стили самого задания */
+
+.task-main>.task-q {
+    width: 45%;
+    height: 760px;
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    /* border-right: 1px solid rgba(32, 32, 32, 0.822); */
+    padding: 10px 25px;
+    overflow-y: auto;
+    scrollbar-width: thin;
+    scrollbar-color: #3C7084 rgba(0, 0, 0, 0.3);
+}
+.task-q>form {
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    width: 100%;
+}
+
+.task-q>form>.question{
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    width: 100%;
+    /* background: rgba(0, 0, 0, 0.3); */
+    /* border: 1px solid rgba(255, 255, 255, 0.3); */
+    /* box-shadow: 0 0 2px rgba(255, 255, 255, 0.25); */
+    /* border-radius: 5px; */
+    /* padding: 10px; */
+    color: rgba(250, 250, 250, 0.7);
+    margin-bottom: 15px;
+}
+
+.question>p.title{
+    font-size: 15x;
+    font-weight: bold;
+    color: #3c7084;
+    /* color: #4e91aa; */
+    /* color: rgba(255, 255, 255, 0.8); */
+    margin-bottom: 7px;
+}
+
+.question>.info{
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    width: 100%;
+}
+
+.question>.info>.li{
+    display: flex;
+    align-items: center;
+    /* align-items: flex-start; */
+    width: 100%;
+    margin: 5px 7px;
+}
+.question>.info>.li>label{
+    /* display: flex; */
+    /* align-items: center; */
+    height: max-content;
+    width: 100%;
+    font-size: 13px;
+    color: rgb(155, 155, 155);
+}
+
+
+.task-q>form>button{
+    background: rgba(255, 255, 255, 0.2);
+    /* box-shadow: inset 0 0 6px rgb(0 0 0 / 25%); */
+    border-radius: 5px;
+    padding: 6px 17px;
+    margin-top: 12px;
+    /* color: #650791; */
+    color: rgba(255, 255, 255, 0.7);
+    /* color: #3c7084; */
+    font-size: 14px;
+    font-weight: bold;
+    text-decoration: none;
+    margin-bottom: 17px;
+}
+
+
+/* Конец стилей самого задания */

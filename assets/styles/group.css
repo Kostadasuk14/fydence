@@ -1,0 +1,12 @@
+.cont{
+    display: flex;
+    align-items: center;
+    width: 100%;
+}
+
+.cont>.cont-post{
+    /* width: 970px!important; */
+    /* overflow-y: hidden!important; */
+    margin-left: 0;
+    /* height: auto; */
+}
